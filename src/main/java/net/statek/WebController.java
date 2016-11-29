@@ -1,5 +1,6 @@
 package net.statek;
 
+import net.statek.model.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +13,7 @@ public class WebController {
 	@RequestMapping(path ="/", method = RequestMethod.GET)
 	public String index(Model model, @RequestParam(value = "name", required = false) String name) {
 		model.addAttribute("name", name);
-		return "statek";
+		return "index";
 	}
 
 }
