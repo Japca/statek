@@ -1,0 +1,132 @@
+html {
+    /*background: url(http://statek-sound-system.cz/wp-content/uploads/2016/06/pozadi.jpg) no-repeat center center fixed;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;*/
+    /*
+
+    content: ' ';
+display: block;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+opacity: 0.2;
+background-image: url(http://statek-sound-system.cz/wp-content/uploads/2016/06/pozadi.jpg);
+background-repeat: no-repeat;
+background-position: 50% 0;
+-ms-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;*/
+}
+body {
+    background-color: #000000;
+        /*background-color: #B9C3C9;*/
+
+
+    color: #DED3A7;
+    padding-top: 2%;
+    height: 100%;
+    /* make sure it is at least as tall as the viewport */
+}
+h2 {
+    color: #DED3A7;
+    font-weight: 300;
+    font-size: 120%;
+}
+p {
+    color: #DED3A7;
+}
+#header {
+    width: 80%;
+    font-weight: 300 !important;
+    /*background-color: #000d1a;*/
+    background-color: #1C1C2B;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#container {
+    background: url(http://statek-sound-system.cz/wp-content/uploads/2016/06/pozadi.jpg) no-repeat center center fixed;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #DED3A7;
+    min-height: 100%;
+    opacity: 0.9;
+    background-color: gray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.clickable a:hover {
+    font-weight: 500;
+    background-color: #5f5f5f;
+}
+.clicked {
+    background-color: #5f5f5f;
+    /*background-color:#59596E;*/
+}
+div {
+    color: white;
+}
+
+/*-----Equipment css --------------*/
+
+div#equipment {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.email {
+  margin: 10px;
+  font-size: 115%;
+  color: #cccccc;
+}
+
+.email {
+  margin: 10px;
+  font-size: 115%;
+  color: #cccccc;
+}
+
+.face {
+  margin: 10px;
+  /*margin-top: 5px;*/
+  position: absolute;
+}
+
+
+@media (min-width: 1120px), (min-height: 630px) {
+    body {
+        background-size: auto;
+    }
+}
