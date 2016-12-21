@@ -9,14 +9,14 @@ import org.springframework.web.WebApplicationInitializer;
 
 @ComponentScan
 @SpringBootApplication
-public class WebconApplication extends SpringBootServletInitializer implements WebApplicationInitializer {
+public class StatekApplication extends SpringBootServletInitializer implements WebApplicationInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebconApplication.class, args);
+		SpringApplication.run(StatekApplication.class, args);
 	}
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(WebconApplication.class);
+		return application.sources(StatekApplication.class);
 	}
 }

@@ -1,6 +1,5 @@
-package net.statek;
+package net.statek.controller;
 
-import net.statek.model.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
