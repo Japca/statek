@@ -8,12 +8,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
+@RequestMapping("/")
 public class WebController {
+	private static final String VIEW = "statek";
 
-	@RequestMapping(value ="/statek", method = RequestMethod.GET)
+
+	@RequestMapping(value ="/", method = RequestMethod.GET)
 	public String index(Model model) {
-		return "statek";
-		//new ModelAndView("error.html");
+		return VIEW;
 	}
+
 
 }
