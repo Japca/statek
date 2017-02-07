@@ -1,0 +1,36 @@
+#header {
+  background-color: white; }
+  #header #logo {
+    background: url("../img/logo.png") no-repeat center;
+    height: 180px; }
+  #header #navigator {
+    background-color: white;
+    width: 100%;
+    float: left;
+    border-width: 2px 0 2px 0;
+    border-color: black;
+    height: 60px;
+    border-style: solid; }
+    #header #navigator ul {
+      width: 80%;
+      display: table;
+      list-style-type: none;
+      text-align: center;
+      font-weight: bold; }
+      #header #navigator ul :first-child {
+        padding-left: 80px; }
+      #header #navigator ul li {
+        height: 90%;
+        display: table-cell; }
+        #header #navigator ul li a {
+          font-family: 'fertigo_proregular';
+          font-size: 30px;
+          text-align: center;
+          height: 90%;
+          display: block;
+          text-decoration: none;
+          color: black; }
+        #header #navigator ul li a:hover {
+          background-color: gray; }
+
+/*# sourceMappingURL=header.css.map */
