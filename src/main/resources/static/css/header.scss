@@ -13,23 +13,32 @@
     border-color: black;
     height: 60px;
     border-style: solid;
+    padding-left: 70px;
+
     ul {
       width: 80%;
+      height: 90%;
       display: table;
+      //margin: 0px 4px 0px 4px;
+      //padding-top: 6px;
+      line-height: 30px;
+      height: 30px;
       list-style-type: none;
       text-align: center;
       font-weight: bold;
-      :first-child {
-        padding-left: 80px;
-      }
+      //:first-child {
+      //  padding-left: 80px;
+      //}
       li {
-        height: 90%;
+        height: 100%;
+        width: auto;
+
         display: table-cell;
         a {
+          height: 100%;
           font-family: 'fertigo_proregular';
           font-size: 30px;
           text-align: center;
-          height: 90%;
           display: block;
           text-decoration: none;
           color: black;

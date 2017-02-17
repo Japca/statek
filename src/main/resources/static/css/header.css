@@ -10,23 +10,26 @@
     border-width: 2px 0 2px 0;
     border-color: black;
     height: 60px;
-    border-style: solid; }
+    border-style: solid;
+    padding-left: 70px; }
     #header #navigator ul {
       width: 80%;
+      height: 90%;
       display: table;
+      line-height: 30px;
+      height: 30px;
       list-style-type: none;
       text-align: center;
       font-weight: bold; }
-      #header #navigator ul :first-child {
-        padding-left: 80px; }
       #header #navigator ul li {
-        height: 90%;
+        height: 100%;
+        width: auto;
         display: table-cell; }
         #header #navigator ul li a {
+          height: 100%;
           font-family: 'fertigo_proregular';
           font-size: 30px;
           text-align: center;
-          height: 90%;
           display: block;
           text-decoration: none;
           color: black; }
