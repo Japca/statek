@@ -1,4 +1,10 @@
 html {
+  background: url(../img/space3.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   @font-face {
     font-family: 'fertigo_proregular';
@@ -21,6 +27,7 @@ html {
     margin-right: auto;
     width: 80%;
     height: 100%;
+    opacity: 0.5;
 
   }
 
@@ -28,6 +35,10 @@ html {
     height: 100%;
     background-color: antiquewhite;
 
+  }
+
+  img {
+    opacity: 0.5;
   }
 }
 
