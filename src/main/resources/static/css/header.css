@@ -22,8 +22,10 @@ header {
           font-size: 30px;
           text-align: center;
           text-decoration: none;
-          color: #808080; }
+          color: #3d3c3a;
+          border-radius: 4px; }
         header #navigator ul li a:hover {
-          background-color: #C0C0C0; }
+          background-color: white;
+          color: #2c3539; }
 
 /*# sourceMappingURL=header.css.map */
