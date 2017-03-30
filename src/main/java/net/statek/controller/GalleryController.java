@@ -1,7 +1,7 @@
 package net.statek.controller;
 
 
-import net.statek.View;
+import net.statek.domain.View;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

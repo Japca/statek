@@ -1,4 +1,4 @@
-package net.statek;
+package net.statek.domain;
 
 public enum View {
 

@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.statek</groupId>
 	<artifactId>stateksound</artifactId>
-	<version>0.0.1</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<parent>
@@ -25,6 +25,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.boot</groupId>-->
@@ -55,6 +56,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
